@@ -14,7 +14,7 @@ Depois de criar a lista faça um GET para:
 - `http://localhost:3000/client/:id`
 
 No console do Docker exibirá o tempo de execução do script após o POST ou GET
-`tempo-execucao >`
+- `tempo-execucao >`
 
 O tempo médio de execução foi de 9ms
 
