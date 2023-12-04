@@ -4,10 +4,9 @@ const { v4: uuidv4 } = require('uuid');
 const cors = require('cors')
 const app = express()
 const port = 3000
-const con = require('./demo_db_connection')
+const con = require('./db_connection')
 
 app.use(express.json());
-
 
 const addList = async (id) => {
 
