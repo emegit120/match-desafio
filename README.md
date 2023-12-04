@@ -10,7 +10,15 @@ $ docker-compose --compatibility up --build
 Após subir a aplicação faça um POST para:
 - `http://localhost:3000/client`
 
-Depois de criar a lista faça um GET para:
+Exemplo de POST:
+`{
+    "name": "Nome do cliente",
+    "email": "email@email.com",
+    "celphone": "11999999999",
+    "status": 1
+}`
+
+Faça um GET passando o id da lista retornado no POST:
 - `http://localhost:3000/client/:id`
 
 No console do Docker exibirá o tempo de execução do script após o POST ou GET
