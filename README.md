@@ -11,6 +11,7 @@ Após subir a aplicação faça um POST para:
 - `http://localhost:3000/client`
 
 Exemplo de POST:
+
 `{
     "name": "Nome do cliente",
     "email": "email@email.com",
