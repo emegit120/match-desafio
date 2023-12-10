@@ -24,11 +24,7 @@ CREATE TABLE `client` (
 CREATE TABLE `client_list` (
   `id` varchar(255) NOT NULL,
   `listid` varchar(255) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `email` varchar(30) DEFAULT NULL,
-  `celphone` varchar(30) DEFAULT NULL,
-  `status` int(1) DEFAULT NULL,
-  `hash` varchar(255) DEFAULT NULL,
+  `total` int(30) NOT NULL,
   `created_at` datetime NOT NULL,
   `last_updated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
